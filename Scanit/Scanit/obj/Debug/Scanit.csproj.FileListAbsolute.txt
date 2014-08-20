@@ -1,0 +1,9 @@
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\bin\Debug\Scanit.exe.config
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\bin\Debug\Scanit.exe
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\bin\Debug\Scanit.pdb
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.Form1.resources
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.Properties.Resources.resources
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.csproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.exe
+c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Scanit.pdb
