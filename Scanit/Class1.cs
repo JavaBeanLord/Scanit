@@ -38,8 +38,9 @@ namespace Scanit
         public void sdkl(){
             string imageLocalNess = Properties.Settings.Default.imageTemp;
             string HashGen = Properties.Settings.Default.Hashgen;
+            string FTPurl = (Properties.Settings.Default.FTPURL);
             // Get the object used to communicate with the server.
-            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://localhost/Ebay/ZoneComputers/images/" + HashGen + ".jpeg" );
+            FtpWebRequest request = (FtpWebRequest)WebRequest.Create("ftp://" + FTPurl + "/Ebay/ZoneComputers/images/" + HashGen + ".jpeg" );
             request.Method = WebRequestMethods.Ftp.UploadFile;
 
             // This example assumes the FTP site uses anonymous logon.

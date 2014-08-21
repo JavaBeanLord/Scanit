@@ -11,7 +11,7 @@ namespace Scanit
 
         public void FormatCombo()
         {
-           Form1 blingo = new Form1();
+           
            
         }
 

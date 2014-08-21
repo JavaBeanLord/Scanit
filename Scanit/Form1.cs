@@ -49,9 +49,9 @@ namespace Scanit
         {
             label1.Text = ("Scan Item");
             #region ScrollBar Auto Load Values
-            vScrollBar1.Minimum = 3;
+            vScrollBar1.Minimum = 0;
             vScrollBar1.Maximum = 255;
-            vScrollBar1.Value = 3;
+            vScrollBar1.Value = 0;
             panel4.Location = new Point(608, -vScrollBar1.Value);
             #endregion
         }
@@ -81,11 +81,13 @@ namespace Scanit
                 upy.Hashgen();
                 upy.sdkl();
                 //set image URL
-                string imageURL = ("http://localhost/Ebay/ZoneComputers/Images/" + Properties.Settings.Default.Hashgen + ".jpeg");
+                string httpurl=Properties.Settings.Default.FTPURL;
+                string imageURL = ("http://" + httpurl + "/Ebay/ZoneComputers/Images/" + Properties.Settings.Default.Hashgen + ".jpeg");
                 Properties.Settings.Default.main_image_url = (imageURL);
-             
+                
                 //grab image from webserver
                 var request = WebRequest.Create(imageURL);
+                request.Credentials = new NetworkCredential("Administrator", "PassWord1!");//IIS 7 Webserver.. USE WAMP =(
                 using (var response = request.GetResponse())
                 using (var stream = response.GetResponseStream())
                 {
@@ -270,6 +272,13 @@ namespace Scanit
         }
         #endregion
 
+        #region AdministratorForm Show Form
+        private void administratorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PassWord AdminPassForm = new PassWord();
+            AdminPassForm.Show();
+        }
+        #endregion
 
     }
 }
