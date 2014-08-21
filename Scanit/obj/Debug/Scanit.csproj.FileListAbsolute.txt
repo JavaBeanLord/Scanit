@@ -10,3 +10,13 @@ c:\users\admin\documents\visual studio 2013\Projects\Scanit\Scanit\obj\Debug\Sca
 C:\Users\admin\Documents\GitHub\Scanit\Scanit\bin\Debug\Scanit.exe.config
 C:\Users\admin\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.exe
 C:\Users\admin\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.pdb
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\bin\Debug\Scanit.exe.config
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.exe
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.pdb
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\bin\Debug\Scanit.exe
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\bin\Debug\Scanit.pdb
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.csprojResolveAssemblyReference.cache
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.Form1.resources
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.Properties.Resources.resources
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\obj\Debug\Scanit.csproj.GenerateResource.Cache
+C:\Users\Justin Garr\Documents\GitHub\Scanit\Scanit\bin\Debug\MySql.Data.Entity.EF6.dll
